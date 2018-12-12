@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+<scroll-view scroll-y="true" bindscrolltolower="uu" style="height:{{scrollH}}px" lower-threshold="50rpx">
+
+<block wx:for="{{rows}}" wx:key="id" wx:for-index="idx">
+  <view class="item" id="t{{idx}}">
+      11111
+      <button bindtap="tap">aaaa</button>
+  </view>
+  <view class="item">
+222222
+  </view>
+
+</block>
+</scroll-view>
+</view>
