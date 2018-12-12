@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+<block wx:for="{{rows}}" wx:key="id" wx:for-index="idx">
+  <view class="item" id="t{{idx}}">
+      11111
+      <button bindtap="tap">aaaa</button>
+  </view>
+  <view class="item">
+222222
+  </view>
+</block>
+</view>
